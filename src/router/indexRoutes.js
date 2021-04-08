@@ -16,8 +16,9 @@ content.innerHTML = '';
         case '#/products':
             return console.log('products');
         
-        case '#/imagen1':
-            return console.log('imagen1');
+        case '#/imagen1': {
+            return content.appendChild(pages.imagen1())
+        }
         
         case '#/imagen2':
             return console.log('imagen2');

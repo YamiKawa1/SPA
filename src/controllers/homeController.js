@@ -4,8 +4,6 @@ export default () => {
 
     const divElement = document.createElement('div');
     divElement.innerHTML = views;
-
-    
     
     const btnclick = divElement.querySelector('#btnclick')
     btnclick.addEventListener('click', () => {
